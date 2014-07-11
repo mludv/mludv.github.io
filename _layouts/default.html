@@ -3,14 +3,25 @@
 
   {% include head.html %}
 
-  <body class="theme-base-0d sidebar-overlay">
+  <body class="max-height theme-base-0d sidebar-overlay">
 
+    <style>
+      .large-image {
+        background-image: url(/public/test2.jpg);
+      }
+    </style>
+
+    <div class="xpost-title">{{page.title}}</div>
+
+     <div class="large-image">
+    </div>
+    
     {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
-      <div class="masthead">
+     <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
             <a href="/" title="Home">{{ site.title }}</a>

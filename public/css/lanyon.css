@@ -313,6 +313,11 @@ a.sidebar-nav-item:focus {
   margin-top: 0;
 }
 
+.xpost-title {
+    float:right;
+    position: relative;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
@@ -320,6 +325,22 @@ a.sidebar-nav-item:focus {
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
+
+html,body {
+  height:100%;
+}
+
+
+.large-image {
+  width: 100%;
+  position:relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  background-image: url(/public/test.jpg);
+} 
 
 /* Related posts */
 .related {
