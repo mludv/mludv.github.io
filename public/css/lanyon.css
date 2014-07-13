@@ -329,7 +329,17 @@ a.sidebar-nav-item:focus {
     font-size: 5vw;
     top: 400px
   }
+  
+  img.halfwidth {
+    width: 58%;
+    display: inline-block;
+  }
+
+  img.halfwidth + img.halfwidth {
+    float:right;
+  }
 }
+
 /* Meta data line below post title */
 .post-date {
   display: block;
@@ -342,6 +352,11 @@ html,body {
   height:100%;
 }
 
+img {
+  margin-left: -10%;
+  margin-right: -10%;
+  max-width: 120%;
+}
 
 .large-image {
   width: 100%;

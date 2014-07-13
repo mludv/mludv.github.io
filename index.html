@@ -14,11 +14,12 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content  | strip_html | truncate: 200}}
-    
+    {{ post.content | strip_html | truncate: 120 }}
+    <p> 
       <a href="{{ post.url }}">
-       las mer
+        läs mer 
       </a>
+    </p>
   </div>
   {% endfor %}
 </div>
@@ -27,7 +28,7 @@ title: Home
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">Äldre</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
@@ -36,7 +37,7 @@ title: Home
       <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">Nyare</span>
   {% endif %}
 </div>
 
