@@ -356,10 +356,10 @@ html,body {
 }
 
 img {
-    
-    margin-left: -5%;
-    margin-right: -5%;
-    max-width:110%;
+    border-radius: 0; 
+    margin-left: -6%;
+    margin-right: -6%;
+    max-width:112%;
 }
 @media (min-width:38em) {
   /* Container width: 32em */
