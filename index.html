@@ -14,7 +14,11 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.content  | strip_html | truncate: 200}}
+    
+      <a href="{{ post.url }}">
+       las mer
+      </a>
   </div>
   {% endfor %}
 </div>
