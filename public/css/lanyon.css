@@ -330,12 +330,13 @@ a.sidebar-nav-item:focus {
     top: 400px
   }
   
-  img.halfwidth {
+  img.half {
     width: 58%;
     display: inline-block;
+    margin-bottom: 0;
   }
 
-  img.halfwidth + img.halfwidth {
+  img.half + img.half {
     float:right;
   }
 }
