@@ -351,9 +351,7 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
-html,body {
-  height:100%;
-}
+
 
 img {
     border-radius: 0; 
@@ -385,12 +383,17 @@ img {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   background-image: url(/public/test.jpg);
+  height:500px;
 }
 @media (min-width:38em) {
   .large-image {
+    height: 100%;
     background-attachment: fixed;
+  }
+  
+  html,body {
+    height:100%;
   }
 }
 
