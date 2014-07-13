@@ -324,20 +324,22 @@ a.sidebar-nav-item:focus {
   color: white;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 38em) {
   .xpost-title {
     font-size: 5vw;
     top: 400px
   }
   
   img.half {
-    width: 58%;
+    width: 53%;
     display: inline-block;
     margin-bottom: 0;
   }
 
   img.half + img.half {
-    float:right;
+   margin-left: 8%;
+  }
+  img.half+img.half::after {
   }
 }
 
@@ -354,10 +356,28 @@ html,body {
 }
 
 img {
-  margin-left: -10%;
-  margin-right: -10%;
-  max-width: 120%;
+    
+    margin-left: -5%;
+    margin-right: -5%;
+    max-width:110%;
 }
+@media (min-width:38em) {
+  /* Container width: 32em */
+  img {
+    margin-left: -5%;
+    margin-right: -5%;
+    max-width:110%;
+  }
+}
+@media (min-width:56em) {
+  /* Container width: 38em */
+  img {
+    margin-left: -5%;
+    margin-right: -5%;
+    max-width:110%;
+  }
+}
+  
 
 .large-image {
   width: 100%;
