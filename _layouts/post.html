@@ -40,6 +40,7 @@
       
         <div class="post">
           <span class="post-date">{{ page.date | date_to_string }}</span>
+          {% if page.subheader %}<h1>{{page.subheader}}</h1>{% endif %}
           {{ content }}
         </div>
         
