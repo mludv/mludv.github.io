@@ -9,7 +9,7 @@ permalink:        pretty
 title:            'Svarta linjer'
 tagline:          'blogg'
 description:      'Maximilian Ludvigssons blogg.'
-url:              #
+url:              'http://svartalinjer.com'
 baseurl:          '/'
 paginate:         5
 
