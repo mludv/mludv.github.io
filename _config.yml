@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            'Maximilian Ludvigsson'
+title:            'Svarta linjer'
 tagline:          'blogg'
-description:      'Om utbytesåret i Taiwan.'
+description:      'Maximilian Ludvigssons blogg.'
 url:              #
 baseurl:          '/'
 paginate:         5
@@ -17,8 +17,3 @@ author:
   name:           'Maximilian Ludvigsson'
   url:            https://instagram.com/mludv
 
-# Custom vars
-version:          1.0.0
-
-github:
-  repo:           https://github.com/poole/lanyon
