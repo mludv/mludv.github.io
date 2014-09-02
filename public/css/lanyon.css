@@ -386,6 +386,7 @@ img {
   width: 100%;
   position:relative;
   background-position: top center;
+  background-color: rgb(32, 32, 32);
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(/public/test.jpg);
